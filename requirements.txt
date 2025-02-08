@@ -1,0 +1,8 @@
+Flask
+torch
+efficientnet-pytorch
+albumentations
+numpy
+scipy
+requests
+flask_cors

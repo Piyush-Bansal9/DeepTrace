@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  font-family: 'Urbanist', sans-serif;
+}
+
+.circle1 {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: pulseGlow 5s infinite ease-in-out;
+}
+.circle2 {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: pulseGlow 7s infinite ease-in-out;
+}
+.circle3 {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: pulseGlow 9s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    border-color: rgba(241, 243, 245, 0.03);
+    box-shadow: 0 0 0px 0px rgba(241, 243, 245, 0.05);
+  }
+  50% {
+    border-color: rgba(241, 243, 245, 0.1);
+    box-shadow: 0 0 5px 5px rgba(241, 243, 245, 0.05);
+  }
+}
+
