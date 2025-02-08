@@ -11,7 +11,7 @@ import VideoUpload from "./prediction.jsx";
 import Result from "./components/Result.jsx";
 import ImagePredict from "./imagePrediction.jsx";
 import ImageResult from "./components/imageResult.jsx";
-import API_Buisnesses from "./components/ApiBuisnesses.jsx";
+import ApiBuisnesses from "./components/ApiBuisnesses.jsx";
 // import {ContractDeets} from "./contractDeets.jsx";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Route path="/contract" element={<Result />} />
         <Route path="/upload-image" element={<ImagePredict />} />
         <Route path="/image-result" element={<ImageResult />} />
-        <Route path="/api/buisnesses" element={<ApiBuisnesses/>} />
+        <Route path="/api" element={<ApiBuisnesses/>} />
         {/* <Route path="/contract" element={<ContractDeets />} /> */}
       </Routes>
     </Router>
