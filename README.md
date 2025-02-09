@@ -4,7 +4,7 @@
 
 ### Click for Video 👇🏻👇🏻
 
-[![Watch the video](public/deeptrace_cover.png)](https://youtu.be/k2KG_4mlOEo)
+[![Watch the video](public/deeptrace_cover.png)](https://www.youtube.com/watch?v=MLY7dbR_dXw)
 
 **DeepTrace** is an innovative blockchain-based platform designed to combat the growing issue of deepfake videos by leveraging advanced technology and ensuring user privacy. By utilizing the immutable and decentralized nature of blockchain, DeepTrace delivers a highly accurate and trustworthy solution for detecting and mitigating deepfake content worldwide.
 
@@ -25,10 +25,6 @@ DeepTrace integrates blockchain technology, similar to C2PA, to securely embed v
 
 - **Immutable Records**: Ensures that once a video is created or modified, its authenticity and history are permanently recorded.
 - **Traceability**: Easy tracing of the video's origins and modifications, ensuring content trustworthiness and transparency.
-
-### <u>Metadata-Embedded Blockchain Details:</u>
-
-Just like C2PA (Coalition for Content Provenance and Authenticity) technology embeds provenance data directly into content files to verify their origin and history, the Metadata-Embedded Blockchain in DeepTrace works similarly. It integrates blockchain verification details directly into the video’s metadata. This means that every time a video is created or modified, the authenticity and historical record of that content are securely embedded within the video itself. This embedded information, much like C2PA’s provenance data, allows anyone to easily trace and verify the video's integrity at any point in time, ensuring that the content is trustworthy and its origins are transparent.
 
 ### Ensemble Learning:
 
@@ -96,15 +92,13 @@ cd icpr2020dfdc/notebook
 python3 ../../app.py
 ```
 
-### Lastly set up neoX destnet on your metamask wallet and get some test tokens from [here](https://neoxwish.ngd.network/).
-
 ## Our Contact info
 
 Team Name : < FigureOut />
 
 Team Members : Kartik Bindra, Hitesh Gupta, Devyansh
-Bhattacharya
+Bhattacharya, Piyush Bansal, Kavya Aggarwal
 
-[Email](mailto:guptahitesh201105@gmail.com)
+[Email](mailto:bindrakartik64@gmail.com)
 
 Phone : +91 8595867129.
